@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'ok';
-  src: url('/Garet-Heavy.3e9505c1.ttf');
+  src: url('/Azonix.7f606a19.otf');
 }
 body {
   font-family: 'ok';
@@ -325,7 +325,7 @@ footer{
   }
   .logo{
     margin-left: 20px;
-    margin-top: 2px;
+    margin-top: 10px;
     width: 140px;
     height: 50px;
   }
@@ -345,6 +345,10 @@ footer{
     color: white;
   
     
+  }
+  footer{
+    z-index: 1;
+    background-color: black;
   }
  
 }
