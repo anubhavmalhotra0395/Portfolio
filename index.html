@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Portfolio</title>
+	<meta name="description" content="Threejs demo landing page for product visualization using WEBGi">
+
+	<meta property="og:url" content="http://drill-webgi-tutorial.vercel.app">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Threejs demo landing page for product visualization using WEBGi">
+	<meta property="og:description" content="Threejs demo landing page for product visualization using WEBGi">
+	<meta property="og:image" content="http://drill-webgi-tutorial.vercel.app/assets/images/preview.jpg">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="drill-webgi-tutorial.vercel.app">
+	<meta property="twitter:url" content="http://drill-webgi-tutorial.vercel.app">
+	<meta name="twitter:title" content="Threejs demo landing page for product visualization using WEBGi">
+	<meta name="twitter:description"
+		content="Threejs demo landing page for product visualization using WEBGi">
+	<meta name="twitter:image" content="http://drill-webgi-tutorial.vercel.app/assets/images/preview.jpg">
+
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="www.neotix.com.br">
+
+	<meta charset="UTF-8" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicons/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#F2CE6E">
+	<meta name="theme-color" content="#F2CE6E">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="loader">
+		<p>Loading... Please wait</p>
+		<div class="progress"></div>
+	</div>
+	<nav class="nav--bar">
+		<img class="logo" src="assets/images/doctadev.png" >
+		<button class="button--navbar">PROJECTS</button>
+	</nav>
+
+	<div class="container">
+		<section class="section first">
+			<div class="section--one--container">
+				<h1>Anubhav Malhotra</h1>
+				<p>is a UI Developer who has 2 years of Industry Experience working with React JS using functional components. He uses Redux and Context API for complex state managements and has also used other hooks on his projects.</p>
+				<a href="https://www.linkedin.com/in/anubhav-malhotra-99babb1b1/"><button class="button--hero">WORK WITH ME</button></a>
+			</div>
+		</section>
+
+		<section class="section second">
+			<div class="section--two--container">
+				<h2 class="lol"><span class="haha">Varied</span><br>Interests</h2>
+				<p>Always had a knack for aesthetic designs, freelanced some projects focused on it using React JS. A Rookie with MERN Stack Development and Three Js looking to improve through online documentations and tutorials. Keen on getting onto React Native once i get good with what I have already ventured on. Also, have been polishing my skills with REST APIs at AlgoExpert, looking to be certified as an Expert with Frontend Development soon. Codewars has been frequently being visited by me, and I hope to get good at coding through doing so. Apart from work, I like producing music, writing poetry, and going on hikes. Thanks!</p>
+			</div>
+			<div class="custom--bg"></div>
+		</section>
+
+		<section class="section third">
+			<div class="section--third--container">
+				<h2>Projects</h2>
+				
+					<a href="https://anubhavmalhotra0395.github.io/shoppiecesofme/" style="text-decoration: underline;color: black;"><p>Jewelry Store: Pieces Of Me 2023</p></a>
+				
+				<a href="https://www.linkedin.com/in/anubhav-malhotra-99babb1b1/"><button class="button--hero">WORK WITH ME</button></a>
+			</div>
+		</section>
+
+		<footer>
+			<button class="button--footer">BACK TO TOP</button>
+		</footer>
+	</div>
+
+	<div id="webgi-canvas-container">
+		<canvas id="webgi-canvas"></canvas>
+		<button class="button--customize button--exit">EXIT</button>
+	</div>
+
+	<div class="customizer--container">
+		<ul class="strap--colors">
+			<li class="button--colors yellow"></li>
+			<li class="button--colors red"></li>
+			<li class="button--colors black"></li>
+		</ul>
+	</div>
+
+	<script src="src/index.ts"></script>
+	
+</body>
+
+</html>
