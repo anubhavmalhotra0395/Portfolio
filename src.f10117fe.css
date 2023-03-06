@@ -280,7 +280,7 @@ footer{
 }
 
 .black{
-  background-color: rgb(74, 76, 79);
+  background-color: black;
 }
 
 /* MOBILE ADJUSTMENTS */
@@ -321,7 +321,8 @@ footer{
 
   .second{
     align-items: flex-end;
-    z-index: 1;
+    z-index: -1;
+    position: relative;
   }
   
   .section--third--container {
@@ -330,19 +331,19 @@ footer{
     z-index: 1;
   }
   .logo{
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 10px;
     width: 140px;
     height: 50px;
   }
   .lol{
-    margin-top: -600px;
+    margin-top: -400px;
     font-size: 2rem;
     line-height: 2rem;
     margin-bottom: 30px;
   }
   .haha{
-    margin-top: -600px;
+    margin-top: -400px;
     font-size: 2rem;
     line-height: 1rem;
   }
@@ -353,8 +354,8 @@ footer{
     
   }
   footer{
-    z-index: 99 !important;
-    background-color: black;
+   z-index: 1;
+   background-color: black;
   }
  
 }
