@@ -214,6 +214,7 @@ footer{
   position: fixed;
   top: 0;
   margin-left: 00px;
+  z-index: 99;
 }
 
 #webgi-canvas-container{
@@ -222,6 +223,7 @@ footer{
   pointer-events: none;
   position: fixed;
   display: flex;
+  z-index: 99;
   justify-content: flex-end;
   flex-direction: column;
   align-items: center;
@@ -295,7 +297,7 @@ footer{
   .nav--bar{
     margin-top: 0;
     z-index: 1;
-    background: #ffffffad;
+    
     padding: 30px 0;
     backdrop-filter: blur(5px);
   }
