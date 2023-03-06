@@ -214,7 +214,7 @@ footer{
   position: fixed;
   top: 0;
   margin-left: 00px;
-  z-index: 99;
+  
 }
 
 #webgi-canvas-container{
@@ -223,7 +223,7 @@ footer{
   pointer-events: none;
   position: fixed;
   display: flex;
-  z-index: 99;
+
   justify-content: flex-end;
   flex-direction: column;
   align-items: center;
@@ -306,6 +306,7 @@ footer{
     width: 360px;
     margin-left: 6%;
     margin-top: 40%;
+    z-index: 1;
   }
 
   .section--one--container > p {
@@ -314,11 +315,13 @@ footer{
 
   .second{
     align-items: flex-end;
+    z-index: 1;
   }
   
   .section--third--container {
     width: 220px;
     margin-left: 7%;
+    z-index: 1;
   }
   .logo{
     margin-left: 20px;
@@ -340,14 +343,10 @@ footer{
   .second{
     margin-left: 15px;
     color: white;
+  
     
   }
-  .button--hero{
-    background: #6e94ae;
-  }
-  .custom--bg{
-    background: #6e94ae;;
-  }
+ 
 }
 
 
