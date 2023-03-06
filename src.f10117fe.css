@@ -1,6 +1,10 @@
 @font-face {
-  font-family: 'ok';
+  font-family: 'ok1';
   src: url('/Azonix.7f606a19.otf');
+}
+@font-face {
+  font-family: 'ok';
+  src: url('/Garet-Book.9b47d186.woff2');
 }
 body {
   font-family: 'ok';
@@ -73,6 +77,7 @@ body {
   font-size: 20px;
   font-weight: 900;
   margin-top: 0px;
+  font-family: 'ok';
 }
 
 .section{
@@ -94,6 +99,7 @@ body {
   width: 50%;
   margin: 0;;
   margin-top: -50px;
+  font-family: 'ok';
 }
 .second{
   color: white;
@@ -347,7 +353,7 @@ footer{
     
   }
   footer{
-    z-index: 1;
+    z-index: 99 !important;
     background-color: black;
   }
  
