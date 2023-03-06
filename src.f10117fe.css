@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'ok';
-  src: url('/Garet-Book.c7ab8280.otf');
+  src: url('/Garet-Heavy.3e9505c1.ttf');
 }
 body {
   font-family: 'ok';
@@ -70,7 +70,9 @@ body {
 .logo{
   margin-left: 40px;
   width: 180px;
-  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 0px;
 }
 
 .section{
@@ -283,8 +285,8 @@ footer{
   }
 
   .first h1{
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 2rem;
     letter-spacing: -0.1rem;
     width: 50%;
     margin-top:-240px;
@@ -323,17 +325,26 @@ footer{
     height: 50px;
   }
   .lol{
-    margin-top: -800px;
-    font-size: 3rem;
+    margin-top: -600px;
+    font-size: 2rem;
     line-height: 2rem;
     margin-bottom: 30px;
   }
   .haha{
-    margin-top: -800px;
-    font-size: 3rem;
+    margin-top: -600px;
+    font-size: 2rem;
+    line-height: 1rem;
   }
   .second{
     margin-left: 15px;
+    color: white;
+    
+  }
+  .button--hero{
+    background: #6e94ae;
+  }
+  .custom--bg{
+    background: #6e94ae;;
   }
 }
 

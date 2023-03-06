@@ -71367,7 +71367,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../assets/fonts/garet/Garet-Book.otf":[["Garet-Book.c7ab8280.otf","assets/fonts/garet/Garet-Book.otf"],"assets/fonts/garet/Garet-Book.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+},{"./../assets/fonts/garet/Garet-Heavy.ttf":[["Garet-Heavy.3e9505c1.ttf","assets/fonts/garet/Garet-Heavy.ttf"],"assets/fonts/garet/Garet-Heavy.ttf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -80296,7 +80296,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51627" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58326" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
