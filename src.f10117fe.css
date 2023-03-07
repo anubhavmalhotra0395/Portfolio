@@ -15,24 +15,24 @@ body {
   overflow-y: hidden;
 }
 .haha{
-  font-size: 6rem;
-  line-height: 6rem;
+  font-size: 5rem;
+  line-height: 4rem;
   letter-spacing: 0.1rem;
   width: 100%; 
   margin-bottom: -1px;
-  text-decoration: underline;
+
   color: whitesmoke;
-  margin-top: 300px;
+  
 }
 .lol{
-  font-size: 5rem;
-  margin-top: 300px;
-  line-height: 4rem;
+  font-size: 4.2rem;
+  
+  line-height: 3rem;
   letter-spacing: -0.3rem;
   width: 100%;
   margin-bottom: 10px;
-  text-decoration: underline;
-  color: black;
+
+  color: whitesmoke;
 }
 
 *{
@@ -51,7 +51,9 @@ body {
   align-items: center;
   z-index: 2;
 }
-
+.second p {
+  font-size: 12px;
+}
 .progress{
   position: absolute;
   top: 52%;
@@ -184,7 +186,7 @@ h2{
 
 .custom--bg{
   width: 100%;
-  height: 800px;
+  height: 550px;
   background: #96b2c5;
   -webkit-transform: skew(20deg);
   -moz-transform: skew(20deg);
@@ -193,6 +195,8 @@ h2{
   position: absolute;
   top: 0;
   left: 0;
+  border: 1px solid black;
+
 }
 
 .custom--bg2{
@@ -354,6 +358,7 @@ h2{
 
   .second{
     align-items: flex-end;
+  
   }
   .second p{
     font-size: .8rem;
@@ -370,25 +375,25 @@ h2{
     letter-spacing: 0.1rem;
     width: 100%; 
     margin-bottom: -1px;
-    text-decoration: underline;
+    
     color: whitesmoke;
-    margin-top: -700px;
+    margin-top: -715px;
     z-index: 2;
   }
   .lol{
     font-size: 2.2rem;
-    margin-top: -700px;
+    margin-top: -715px;
     line-height: 2.5rem;
     letter-spacing: -0.3rem;
     width: 100%;
     margin-bottom: 10px;
-    text-decoration: underline;
-    color: black;
+   
+    color: whitesmoke;
     z-index: 2;
   }
   .section--two--container{
     z-index: 2;
-    margin-left: 15px;
+    margin-left: 20px;
   }
   .custom--bg{
     z-index: 1;
@@ -416,6 +421,9 @@ h2{
 
 .third{
   height: 550px;
+}
+.third p{
+  font-size: 12px;
 }
 }
 
