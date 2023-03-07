@@ -288,16 +288,18 @@ footer{
 }
 
 /* MOBILE ADJUSTMENTS */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 
 
   html, body, .container, nav{
     overflow-x: hidden;
   }
-
+.first p{
+  font-size: .8rem;
+}
   .first h1{
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 2rem;
     letter-spacing: -0.1rem;
     width: 50%;
     margin: 0 0 15px 0px;
@@ -332,6 +334,9 @@ footer{
   .second{
     align-items: flex-end;
   }
+  .second p{
+    font-size: .8rem;
+  }
   
   .section--third--container {
     width: 220px;
@@ -346,12 +351,12 @@ footer{
     margin-bottom: -1px;
     text-decoration: underline;
     color: whitesmoke;
-    margin-top: -650px;
+    margin-top: -600px;
     z-index: 2;
   }
   .lol{
     font-size: 2.2rem;
-    margin-top: -650px;
+    margin-top: -600px;
     line-height: 2.5rem;
     letter-spacing: -0.3rem;
     width: 100%;
@@ -374,9 +379,7 @@ footer{
   .third h2 {
     font-size: 2rem;
   }
-  .second p{
-    font-size: 11px;
-  }
+  
 
 }
 
