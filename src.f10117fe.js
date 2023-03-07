@@ -80019,8 +80019,8 @@ function setupViewer() {
         },
         onUpdate: onUpdate
       }).to(".section--one--container", {
-        xPercent: '-150',
-        opacity: 0,
+        xPercent: '-120',
+        opacity: 1,
         scrollTrigger: {
           trigger: ".second",
           start: "top bottom",
@@ -80029,9 +80029,9 @@ function setupViewer() {
           immediateRender: false
         }
       }).to(target, {
-        x: isMobile ? -1.1 : -1.37,
-        y: isMobile ? 1.0 : 1.99,
-        z: isMobile ? -0.1 : -0.37,
+        x: isMobile ? -3 : -3,
+        y: isMobile ? -9 : -2.99,
+        z: isMobile ? 9 : 9.5,
         scrollTrigger: {
           trigger: ".second",
           start: "top bottom",
@@ -80146,7 +80146,7 @@ function setupViewer() {
             });
           });
           viewer.renderer.refreshPipeline();
-          return [4 /*yield*/, manager.addFromPath("./assets/drill3.glb")];
+          return [4 /*yield*/, manager.addFromPath("./assets/scene.glb")];
         case 9:
           _h.sent();
           drillMaterial = manager.materials.findMaterialsByName('Drill_01')[0];
@@ -80161,7 +80161,7 @@ function setupViewer() {
             position.set(-3.5, -1.1, 5.5);
             target.set(-0.8, 1.55, -0.7);
             camera.setCameraOptions({
-              fov: 60
+              fov: 30
             });
           }
           onUpdate();
@@ -80296,7 +80296,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49235" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53720" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
