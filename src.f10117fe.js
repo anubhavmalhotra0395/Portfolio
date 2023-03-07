@@ -80146,7 +80146,7 @@ function setupViewer() {
             });
           });
           viewer.renderer.refreshPipeline();
-          return [4 /*yield*/, manager.addFromPath("./assets/wasp.glb")];
+          return [4 /*yield*/, manager.addFromPath("./assets/drill3.glb")];
         case 9:
           _h.sent();
           drillMaterial = manager.materials.findMaterialsByName('Drill_01')[0];
@@ -80161,7 +80161,7 @@ function setupViewer() {
             position.set(-3.5, -1.1, 5.5);
             target.set(-0.8, 1.55, -0.7);
             camera.setCameraOptions({
-              fov: 40
+              fov: 60
             });
           }
           onUpdate();
@@ -80296,7 +80296,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50565" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49235" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

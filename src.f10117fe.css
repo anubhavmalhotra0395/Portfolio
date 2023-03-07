@@ -18,18 +18,18 @@ body {
   font-size: 6rem;
   line-height: 6rem;
   letter-spacing: 0.1rem;
-  width: 50%;
-  margin-top: 300px;
+  width: 100%; 
   margin-bottom: -1px;
   text-decoration: underline;
   color: whitesmoke;
+  margin-top: 350px;
 }
 .lol{
   font-size: 5rem;
+  margin-top: 350px;
   line-height: 4rem;
   letter-spacing: -0.3rem;
-  width: 50%;
-  margin-top: 300px;
+  width: 100%;
   margin-bottom: 10px;
   text-decoration: underline;
   color: black;
@@ -103,6 +103,8 @@ body {
 }
 .second{
   color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .button--hero{
@@ -158,12 +160,14 @@ body {
 .second{
   justify-content: flex-end;
   position: relative;
+  
 }
 
 .section--two--container{
   width: 360px;
   margin-right: 10%;
   z-index: 1;
+
 }
 
 .section--third--container{
@@ -284,7 +288,6 @@ footer{
 }
 
 /* MOBILE ADJUSTMENTS */
-
 @media (max-width: 600px) {
 
 
@@ -293,17 +296,17 @@ footer{
   }
 
   .first h1{
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 4rem;
+    line-height: 4rem;
     letter-spacing: -0.1rem;
     width: 50%;
-    margin-top:-240px;
+    margin: 0 0 15px 0px;
   }
 
   .nav--bar{
     margin-top: 0;
     z-index: 1;
-    
+    background: #ffffffad;
     padding: 30px 0;
     backdrop-filter: blur(5px);
   }
@@ -312,7 +315,6 @@ footer{
     width: 360px;
     margin-left: 6%;
     margin-top: 40%;
-    z-index: 1;
   }
 
   .section--one--container > p {
@@ -321,43 +323,32 @@ footer{
 
   .second{
     align-items: flex-end;
-    z-index: -1;
-    position: relative;
   }
   
   .section--third--container {
     width: 220px;
     margin-left: 7%;
-    z-index: 1;
-  }
-  .logo{
-    margin-left: 30px;
-    margin-top: 10px;
-    width: 140px;
-    height: 50px;
-  }
-  .lol{
-    margin-top: -400px;
-    font-size: 2rem;
-    line-height: 2rem;
-    margin-bottom: 30px;
   }
   .haha{
-    margin-top: -400px;
-    font-size: 2rem;
-    line-height: 1rem;
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: 0.1rem;
+    width: 100%; 
+    margin-bottom: -1px;
+    text-decoration: underline;
+    color: whitesmoke;
+    margin-top: -750px;
   }
-  .second{
-    margin-left: 15px;
-    color: white;
-  
-    
+  .lol{
+    font-size: 3.5rem;
+    margin-top: -750px;
+    line-height: 3rem;
+    letter-spacing: -0.3rem;
+    width: 100%;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: black;
   }
-  footer{
-   z-index: 1;
-   background-color: black;
-  }
- 
 }
 
 
