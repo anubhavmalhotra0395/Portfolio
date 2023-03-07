@@ -22,11 +22,11 @@ body {
   margin-bottom: -1px;
   text-decoration: underline;
   color: whitesmoke;
-  margin-top: 350px;
+  margin-top: 300px;
 }
 .lol{
   font-size: 5rem;
-  margin-top: 350px;
+  margin-top: 300px;
   line-height: 4rem;
   letter-spacing: -0.3rem;
   width: 100%;
@@ -292,7 +292,7 @@ footer{
 
 
   html, body, .container, nav{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 .first p{
   font-size: .8rem;
@@ -303,7 +303,8 @@ footer{
     letter-spacing: -0.1rem;
     width: 50%;
     margin: 0 0 15px 0px;
-    margin-top: -200px;
+   
+   
   }
 
   .logo{
@@ -319,17 +320,21 @@ footer{
     padding: 30px 0;
     backdrop-filter: blur(5px);
   }
+ 
   
   .section--one--container {
     width: 360px;
     margin-left: 6%;
-    margin-top: 40%;
-    z-index: 1;
+    margin-top: 0%;
+    z-index: 99;
   }
 
   .section--one--container > p {
     width: 70%;
+    
   }
+
+
 
   .second{
     align-items: flex-end;
@@ -372,6 +377,9 @@ footer{
   .custom--bg{
     z-index: 1;
     border: 5px solid black;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
   }
   footer{
     visibility: hidden;
@@ -379,7 +387,18 @@ footer{
   .third h2 {
     font-size: 2rem;
   }
-  
+  .first{
+    height: 700px;
+  }
+  .second{
+    height: 700px;
+  }
+  .third{
+    height: 700px;
+  }
+
+
+
 
 }
 

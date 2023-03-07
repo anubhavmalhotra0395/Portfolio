@@ -80007,9 +80007,9 @@ function setupViewer() {
       var tl = gsap_1.default.timeline();
       // FIRST SECTION
       tl.to(position, {
-        x: isMobile ? -6.0 : 1.56,
-        y: isMobile ? 5.5 : -2.26,
-        z: isMobile ? -3.3 : -3.85,
+        x: isMobile ? -5.0 : 1.56,
+        y: isMobile ? 10.5 : -2.26,
+        z: isMobile ? -4.3 : -3.85,
         scrollTrigger: {
           trigger: ".second",
           start: "top bottom",
@@ -80018,16 +80018,6 @@ function setupViewer() {
           immediateRender: false
         },
         onUpdate: onUpdate
-      }).to(".section--one--container", {
-        xPercent: '-120',
-        opacity: 1,
-        scrollTrigger: {
-          trigger: ".second",
-          start: "top bottom",
-          end: "top 80%",
-          scrub: 1,
-          immediateRender: false
-        }
       }).to(target, {
         x: isMobile ? -3 : -3,
         y: isMobile ? -9 : -2.99,
@@ -80158,10 +80148,10 @@ function setupViewer() {
           position.set(-3.5, -1.1, 5.5);
           target.set(-1.2, 0.2, -0.7);
           if (isMobile) {
-            position.set(-3.5, -1.1, 5.5);
-            target.set(-0.8, 1.55, -0.7);
+            position.set(-3.5, -4.1, 9.5);
+            target.set(-1.8, 5.55, -0.7);
             camera.setCameraOptions({
-              fov: 30
+              fov: 35
             });
           }
           onUpdate();
@@ -80296,7 +80286,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53704" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57113" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
