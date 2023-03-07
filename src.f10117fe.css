@@ -195,7 +195,7 @@ h2{
   left: 0;
 }
 
-footer{
+.last{
   background: black;
   padding: 70px;
   display: flex;
@@ -377,7 +377,6 @@ footer{
   }
   .custom--bg{
     z-index: 1;
-    border: 5px solid black;
     height: 500px;
     justify-content: center;
     align-items: center;
