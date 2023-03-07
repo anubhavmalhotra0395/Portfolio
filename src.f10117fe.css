@@ -388,18 +388,12 @@ footer{
     font-size: 2rem;
   }
   .first{
-    height: 700px;
-  }
-  .second{
-    height: 700px;
-  }
-  .third{
-    height: 700px;
+    margin-top: 0px;
   }
 
-
-
-
+.third{
+  height: 550px;
+}
 }
 
 
