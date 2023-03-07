@@ -347,7 +347,7 @@ footer{
     text-decoration: underline;
     color: whitesmoke;
     margin-top: -650px;
-    z-index: 1;
+    z-index: 2;
   }
   .lol{
     font-size: 3.5rem;
@@ -358,10 +358,13 @@ footer{
     margin-bottom: 10px;
     text-decoration: underline;
     color: black;
-    z-index: 1;
+    z-index: 2;
+  }
+  .section--two--container{
+    z-index: 2;
   }
   .custom--bg{
-    z-index: -1;
+    z-index: 1;
   }
   footer{
     z-index:99 !important;
