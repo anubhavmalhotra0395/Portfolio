@@ -292,7 +292,7 @@ footer{
 
 
   html, body, .container, nav{
-    overflow: hidden !important;
+    overflow-y: hidden !important;
   }
 .first p{
   font-size: .8rem;
@@ -357,12 +357,12 @@ footer{
     margin-bottom: -1px;
     text-decoration: underline;
     color: whitesmoke;
-    margin-top: -750px;
+    margin-top: -700px;
     z-index: 2;
   }
   .lol{
     font-size: 2.2rem;
-    margin-top: -750px;
+    margin-top: -700px;
     line-height: 2.5rem;
     letter-spacing: -0.3rem;
     width: 100%;
@@ -384,6 +384,13 @@ footer{
   }
   footer{
    z-index: 3;
+   background-color: black !important;
+   background: black;
+  }
+  .last{
+    z-index: 3;
+   background-color: black !important;
+   background: black;
   }
   .third h2 {
     font-size: 2rem;
