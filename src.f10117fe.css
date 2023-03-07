@@ -296,7 +296,7 @@ footer{
   }
 
   .first h1{
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 4rem;
     letter-spacing: -0.1rem;
     width: 50%;
@@ -322,7 +322,7 @@ footer{
     width: 360px;
     margin-left: 6%;
     margin-top: 40%;
-    z-index: 2;
+    z-index: 1;
   }
 
   .section--one--container > p {
@@ -336,7 +336,7 @@ footer{
   .section--third--container {
     width: 220px;
     margin-left: 7%;
-    z-index: 2;
+    z-index: 1;
   }
   .haha{
     font-size: 4rem;
@@ -346,20 +346,25 @@ footer{
     margin-bottom: -1px;
     text-decoration: underline;
     color: whitesmoke;
-    margin-top: -750px;
+    margin-top: -650px;
+    z-index: 1;
   }
   .lol{
     font-size: 3.5rem;
-    margin-top: -750px;
+    margin-top: -650px;
     line-height: 3rem;
     letter-spacing: -0.3rem;
     width: 100%;
     margin-bottom: 10px;
     text-decoration: underline;
     color: black;
+    z-index: 1;
   }
-  .section--two--container{
-    z-index: 2;
+  .custom--bg{
+    z-index: -1;
+  }
+  footer{
+    z-index:99 !important;
   }
 }
 
