@@ -79983,14 +79983,14 @@ var lenis_1 = __importDefault(require("@studio-freight/lenis"));
 var lenis = new lenis_1.default({
   duration: 1,
   easing: function easing(t) {
-    return Math.min(1, 1.001 - Math.pow(2, -2 * t));
+    return Math.min(1, 1.001 - Math.pow(1.5, -10 * t));
   },
   direction: 'vertical',
-  gestureDirection: 'both',
+  gestureDirection: 'vertical',
   smooth: true,
   mouseMultiplier: 1,
-  smoothTouch: true,
-  touchMultiplier: 2,
+  smoothTouch: false,
+  touchMultiplier: 5,
   infinite: false
 });
 lenis.stop();
@@ -80286,7 +80286,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64593" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64672" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
