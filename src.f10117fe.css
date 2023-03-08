@@ -16,7 +16,7 @@ body {
 }
 .haha{
   font-size: 5rem;
-  line-height: 4rem;
+  line-height: 5rem;
   letter-spacing: 0.1rem;
   width: 100%; 
   margin-bottom: -1px;
@@ -53,6 +53,7 @@ body {
 }
 .second p {
   font-size: 12px;
+  letter-spacing: -0.3;
 }
 .progress{
   position: absolute;
@@ -80,6 +81,7 @@ body {
   font-weight: 900;
   margin-top: 0px;
   font-family: 'ok';
+  text-decoration: line-through;
 }
 
 .section{
@@ -105,8 +107,7 @@ body {
 }
 .second{
   color: white;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .button--hero{
@@ -161,12 +162,14 @@ body {
 
 .second{
   justify-content: flex-end;
-  position: relative;
   
 }
 
 .section--two--container{
   width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
   margin-right: 10%;
   z-index: 1;
 
@@ -186,17 +189,35 @@ h2{
 
 .custom--bg{
   width: 100%;
-  height: 550px;
+ height: 300px;
+ 
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding-top: 100px;
+
+
+}
+.custom--bg:after{
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  content: '';
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  right: 0;
   background: #96b2c5;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
   -webkit-transform: skew(20deg);
   -moz-transform: skew(20deg);
   -o-transform: skew(20deg);
   transform: skew(20deg) rotate(21deg);
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 1px solid black;
-
 }
 
 .custom--bg2{
@@ -361,7 +382,7 @@ h2{
   
   }
   .second p{
-    font-size: .8rem;
+    font-size: .7rem;
   }
   
   .section--third--container {
@@ -370,21 +391,21 @@ h2{
     z-index: 1;
   }
   .haha{
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 2.1rem;
+    line-height: 1rem;
     letter-spacing: 0.1rem;
     width: 100%; 
     margin-bottom: -1px;
-    
+    text-decoration: line-through;
     color: whitesmoke;
-    margin-top: -715px;
+
     z-index: 2;
   }
   .lol{
-    font-size: 2.2rem;
-    margin-top: -715px;
-    line-height: 2.5rem;
-    letter-spacing: -0.3rem;
+    font-size: 2.0rem;
+  
+    line-height: 2rem;
+    letter-spacing: -0.2rem;
     width: 100%;
     margin-bottom: 10px;
    
@@ -394,12 +415,17 @@ h2{
   .section--two--container{
     z-index: 2;
     margin-left: 20px;
+    align-self: start;
   }
   .custom--bg{
-    z-index: 1;
+
     height: 500px;
     justify-content: center;
     align-items: center;
+  }
+
+  .custom--bg:after{
+    height: 500px;
   }
   footer{
    z-index: 3;
@@ -413,7 +439,7 @@ h2{
    position: relative;
   }
   .third h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .first{
     margin-top: 0px;
@@ -423,7 +449,9 @@ h2{
   height: 550px;
 }
 .third p{
-  font-size: 12px;
+  font-size: 11px;
+  text-decoration: none !important;
+  list-style: none;
 }
 }
 

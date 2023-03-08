@@ -79981,15 +79981,15 @@ var gsap_1 = __importDefault(require("gsap"));
 var ScrollTrigger_1 = require("gsap/ScrollTrigger");
 var lenis_1 = __importDefault(require("@studio-freight/lenis"));
 var lenis = new lenis_1.default({
-  duration: 2,
+  duration: 3,
   easing: function easing(t) {
-    return Math.min(1, 1.001 - Math.pow(1.5, -10 * t));
+    return Math.min(1, 1.001 - Math.pow(2, -10 * t));
   },
   direction: 'vertical',
-  gestureDirection: 'vertical',
+  gestureDirection: 'both',
   smooth: true,
   mouseMultiplier: 1,
-  smoothTouch: false,
+  smoothTouch: true,
   touchMultiplier: 2,
   infinite: false
 });
@@ -80286,7 +80286,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57752" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58785" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
