@@ -80148,7 +80148,7 @@ function setupViewer() {
           position.set(-3.5, -1.1, 5.5);
           target.set(-1.2, 0.2, -0.7);
           if (isMobile) {
-            position.set(-3.5, -1.1, 5.5);
+            position.set(-3.5, -5.1, 6.5);
             target.set(-.3, 1.55, -0.7);
             camera.setCameraOptions({
               fov: 30
@@ -80286,7 +80286,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50894" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49226" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -6,6 +6,8 @@
   font-family: 'ok';
   src: url('/Garet-Book.9b47d186.woff2');
 }
+
+
 body {
   font-family: 'ok';
   overflow-x: hidden;
@@ -331,9 +333,11 @@ h2{
 @media (max-width: 480px) {
 
 
-  html, body, .container, nav{
-    overflow-y: hidden !important;
+  html, .first, .second, .third, nav{
+    overflow-x: hidden !important;
   }
+  
+ 
 .first p{
   font-size: .8rem;
 }
